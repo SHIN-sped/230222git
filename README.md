@@ -153,74 +153,73 @@ linear model이나 NN에 좋음
 2. feature engineering은 na를 채우기 전에 해야함. na를 채우고 하면 분포에 영향을 준다.
 
 
-Exploratory data analysis
-EDA가 무엇인가?
-data를 살펴보면서 "잘 이해하고, 익숙해 지는 것"
-data에 대해 직관을 만든다.
-feature에 대한 가설을 수립한다 ⇒ better score
-재미있는 insight 발견 ⇒ better score
-Building intuition about the data
-EDA step
-domain 지식 얻기
-데이터가 말이 되는지 체크
-데이터가 어떻게 생성되었는지 히애
-domain 지식 얻기
+# Exploratory data analysis EDA가 무엇인가?
+* data를 살펴보면서 "잘 이해하고, 익숙해 지는 것"
+* data에 대해 직관을 만든다.
+* feature에 대한 가설을 수립한다 ⇒ better score
+* 재미있는 insight 발견 ⇒ better score
 
-분야가 다양하기 때문에 아주 자세하게는 알필요 X
-우리의 목적이 정확하게 무엇인지
-우리가 가진 데이터는 어떤 데이터인지
-보통 어떻게 그 문제를 해결하는지
-구글링, 위키피디아 등등 search
-데이터가 말이 되는지 체크
+# Building intuition about the data
+# EDA step
 
-데이터가 domain 관점에서 말이 되는지 봐야함.
+* domain 지식 얻기
+* 데이터가 말이 되는지 체크
+* 데이터가 어떻게 생성되었는지 히애
 
-(e.g.) age 변수에 값이 300.
+# domain 지식 얻기
 
-이해가 안될 때는 discussion을 활용
+* 분야가 다양하기 때문에 아주 자세하게는 알필요 X
+* 우리의 목적이 정확하게 무엇인지
+* 우리가 가진 데이터는 어떤 데이터인지
+* 보통 어떻게 그 문제를 해결하는지
+* 구글링, 위키피디아 등등 search
 
-휴먼에러가 아닌, logic이 이상해서 나오는 반복적인 오류
+# 데이터가 말이 되는지 체크
 
-⇒ feature generation 가능
+* 데이터가 domain 관점에서 말이 되는지 봐야함.(e.g.) age 변수에 값이 300.
 
-데이터가 어떻게 생성되었는지 이해
+* 이해가 안될 때는 discussion을 활용
 
-train / test 데이터가 어떤 방식으로 sampling되었는지
+*  휴먼에러가 아닌, logic이 이상해서 나오는 반복적인 오류
+* ⇒ feature generation 가능
+
+## 데이터가 어떻게 생성되었는지 이해
+
+* train / test 데이터가 어떤 방식으로 sampling되었는지
 
 ⇒ 바탕으로 train / validation split 해야함(상당히 중요)
 
-train/test가 각각 다른 방식으로 생성되었다면, tr을 vl로 이용 불가.
-
-(e.g.) tr의 period > tst 의 period, tr row 개수 < tst row 개수
-
-⇒ 다르게 sampling된 것.
+* train/test가 각각 다른 방식으로 생성되었다면, tr을 vl로 이용 불가.
+* (e.g.) tr의 period > tst 의 period, tr row 개수 < tst row 개수
+* ⇒ 다르게 sampling된 것.
 
 
  
  
-Exploring anonymized data
-Anonymized data란
-feature이름에 아무 의미가 없음(x00,x01,x02...)
-test는 hash되어 있음.
+# Exploring anonymized data Anonymized data란
+* feature이름에 아무 의미가 없음(x00,x01,x02...)
+* test는 hash되어 있음.
+
 우리가 할 수 있는 것.
-개별 feature 탐색
-column의 의미를 추측(어려운 경우 대다수)
-column의 타입을 추측(이거라도 하면 좋음)
-dtype이 float이면 numeric 변수
-dtype이 integer이면 event counter, label encoded, unixtime 등등
-feature간의 관계 알아보기
-feature pair의 관계 찾기
-feature group 찾기
+* 개별 feature 탐색
+ * column의 의미를 추측(어려운 경우 대다수)
+ * column의 타입을 추측(이거라도 하면 좋음)
+  1. dtype이 float이면 numeric 변수
+  2. dtype이 integer이면 event counter, label encoded, unixtime 등등
+
+* feature간의 관계 알아보기
+ * feature pair의 관계 찾기
+ * feature group 찾기
  
 Visualizations
 앞서 다룬 내용들을 잘 할수 있게 해주는 도구
 
-개별 feature 탐색
-Histogram
+# 개별 feature 탐색
+## Histogram
 
-많은 값들이 0에 쏠려있는 경우, log를 취하면 좋음.
+* 많은 값들이 0에 쏠려있는 경우, log를 취하면 좋음.
 
-log를 취해서, na를 mean으로 채웠다는 것을 발견함.
+* log를 취해서, na를 mean으로 채웠다는 것을 발견함.
 
 
 왼쪽이 log 변환 전, 오른쪽이 log 변환 후
@@ -290,15 +289,17 @@ group을 찾아낸 후, group별 feature generation 유용함.
 feature들의 평균을 계산한 후 sorting하여 plot한 모습
  
 Dataset cleaning 과 체크 해야할 것들
-duplicated and constant feature
-constant feature
+# duplicated and constant feature
 
-모델에 도움 X, 메모리만 낭비하므로 지워야함
-train에서는 constant, test에서는 non-constant ⇒ 그래도 지워야함
-train에서는 non-constant, test에서는 constant ⇒ vl 으로 simulate 후 결정
-duplicated feature
+## constant feature
 
-numeric feature는 단순 비교
-categorical feature는 pd.factorize하여 비교
+* 모델에 도움 X, 메모리만 낭비하므로 지워야함
+* train에서는 constant, test에서는 non-constant ⇒ 그래도 지워야함
+* train에서는 non-constant, test에서는 constant ⇒ vl 으로 simulate 후 결정
+
+## duplicated feature
+
+* numeric feature는 단순 비교
+* categorical feature는 pd.factorize하여 비교
 
 https://outyj.tistory.com/8?category=846181
