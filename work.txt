@@ -1,1 +1,742 @@
-sss
+[AI 엔진 사이트]
+
+오렌지3 - https://orange.biolab.si/
+
+R - https://www.r-project.org/
+
+MS Azure -  https://studio.azureml.net/
+
+Google Tensorflow - https://www.tensorflow.org/
+
+데이터분석 플랫폼 나임, 무료 - https://www.knime.com/, 국내소개영상
+
+WEKA, 무료 - https://www.cs.waikato.ac.nz/ml/weka/
+
+KEEL, 무료 - https://sci2s.ugr.es/keel/index.php
+
+AdvancedMiner, 무료 - https://algolytics.com/products/advancedminer/
+
+Rapidminer, 유료 - https://rapidminer.com/
+
+비쥬얼 파이썬 - https://www.visualpython.ai/
+
+
+
+
+
+[참고사이트] 
+
+모두를 위한 인공지능 코세라 강의 (영어) - https://www.coursera.org/learn/ai-for-everyone 
+
+모두를 위한 인공지능 한글 번역 - 김형률 교수 - https://bit.ly/3f2Gz4C, 백업 링크 
+
+MS Future Computed - https://news.microsoft.com/futurecomputed/
+
+The Future Computed (etext) - https://bit.ly/2QI9pxl
+
+구글 AI 실험 관련 대만 샘 사이트 - http://bit.ly/2HNR9ha
+
+AI가 특정 기능은 잘 하지만 정말 지능이 있을까에 대한 근본 연구가 필요하다 - http://bit.ly/2qxXYhN
+
+초등학생에게 AI 소개하기 1시간 수업 - https://www.catherinebreslin.co.uk/ai-in-primary-schools 
+
+오픈AI(테슬라 일론 머스크 등 지원 창설 인공지능 연구기관  - https://openai.com , https://github.com/openai , 
+
+한국 공공 인공지능 오픈 API  DATA  서비스 - http://aiopen.etri.re.kr/index.php 
+
+Awesome-Datascience GitHub - https://github.com/academic/awesome-datascience 
+
+이러닝 플랫폼 chamilo - http://www.dplus.company/chamilo (Id-superman) 
+
+The Seven Patterns Of AI 
+
+100,000 인공지능 생성  무료 얼굴 - https://generated.photos/
+
+구글이 설명하는 만화 머신 러닝 
+
+Data USA - https://datausa.io/
+
+Machine Learning for Everyone 인공지능 설명 (원본은 러시아) 
+
+Creative AI: On the Democratisation & Escalation of Creativity
+
+Public Lecture with Google DeepMind's Demis Ha
+
+Demis Hassabis, CEO, DeepMind Technologies - The Theory of Everything
+
+DeepMind founder Demis Hassabis on how AI will shape the future
+
+핀란드 정부 제작 AI 교육 플랫폼 - https://www.elementsofai.com/
+
+http://www.exploringcs.org/for-teachers-districts/artificial-intelligence 
+
+캐나다 AI 튜터 활용 AI 러닝 플랫폼 - https://korbit.ai/
+
+Awesome Software Engineering for Machine Learning - http://bit.ly/32zAyHI
+
+AI를 위한 준비 : AI가 아시아의 일자리와 역량에 갖는 의미 - aka.ms/aiwhitepaperkr
+
+AI가 청년에게 주는 기회 - https://news.itu.int/empowering-youth-redress-inequalities-seize-opportunities-ai/ 
+
+AI가 주는 개인화된 학습 
+
+스스로 코딩 가능한 AI 응용 프로그램 
+
+제4차 산업혁명에 대응한 지능 정보사회 중장기 종합대책 (한글) - http://www.korea.kr/archive/expDocView.do?docId=37384 
+
+제4차 산업혁명에 대응한 지능 정보사회 중장기 종합대책 (영어) - https://bit.ly/3aeuVSh
+
+The Arm 2020 Global AI Survey - https://bit.ly/3h2YFW5
+
+코드오알지 아워 오브 코드 AI For Oceans 교사용 자료 - https://curriculum.code.org/hoc/plugged/9/ 
+
+흑백 AI 채색 - https://www.fast.ai/2019/05/03/decrappify/ 
+
+Visual Intro to Machine Learning and Deep Learning - https://www.infoq.com/presentations/ml-dl-visual-intro/ 
+
+Azure Machine Learning Studio (classic): algorithm and module help - https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/
+
+파이썬 데이터 분석 실무 강의 - https://wikidocs.net/book/1867 
+
+머신러닝 알고리즘 개관 (영어) - https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/
+
+알려진 머신러닝 알고리즘 개요 (영어)  - https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+
+MS AI Builder - https://docs.microsoft.com/ko-kr/ai-builder/ 
+
+딥러닝 30 가지 적용 사례(한글 번역) - https://brunch.co.kr/@itschloe1/23
+
+AI 관련 영상 정보 (AI 이노베이션 채널) - https://www.youtube.com/channel/UCmhh3amA_hSt0hj4RHd14Dw/featured
+
+Azure Machine Learning 설명서 - https://docs.microsoft.com/ko-kr/azure/machine-learning/
+
+
+
+
+
+[데이터 과학 / 데이터 리터러시]
+
+데이터 리터러시 관련자료 모음 드라이브 - bit.ly/ai-edu-box
+
+구글 데이터 스튜디오 - https://datastudio.google.com/u/0/
+
+빅데이터 종합편 (행정안전부) - https://youtu.be/bzSbPTKopuo
+
+DIKW 피라미드 - https://en.wikipedia.org/wiki/DIKW_pyramid 
+
+Data science education with mBlock - https://bit.ly/335TUqe
+
+https://www.mblock.cc/en-us/blog/mblock/data-chart-update/ 
+
+What is Data Science? - https://datascience.berkeley.edu/about/what-is-data-science/ 
+
+실용적 데이터과학교육 - https://bit.ly/308vCdd
+
+차트 종류 인사이트 1 - https://www.anychart.com/chartopedia/usage-type/ 
+
+차트 종류 인사이트 2 - https://datavizcatalogue.com/ 
+
+통계청 통계교육원 이러닝 - http://sti.kostat.go.kr/coresti/site/main.do 
+
+통계청 통계교육원 교사연구회 참고자료 - https://bit.ly/2DoyHNP
+
+통계청 통계교육원 공개강의실 - https://bit.ly/2Q5OIuC
+
+통계청 통계 데이터 센터 - https://data.kostat.go.kr/sbchome/intro.do 
+
+4차산업 시대에 필수 능력, 데이터 리터러시(통계청 통계교육원) - http://sti.kostat.go.kr/window/2018a/main/2018_sum_4.html 
+
+2020년 중요한 마커터 역량, 데이터 리터러시 - https://www.mobiinside.co.kr/2019/10/29/academy-274/ 
+
+빅데이터 시대, 누구나 알아야할 데이터 리터러시 - https://brunch.co.kr/@dimension-value/27 
+
+4차 산업혁명의 원유, 데이터를 다루는 역량 - https://bit.ly/3ijzrCp
+
+데이터분석을 위한 5단계 절차 - https://brunch.co.kr/@data/10 
+
+데이터분석 - https://science2knowledge.wordpress.com/data-science-scientists/ 
+
+빅데이터 강의 자료 - https://wikidocs.net/69864 
+
+초등학생도 하는 데이터 시각화 - 비주얼 리터러시 교육 (한글 설명) - https://bit.ly/31pFw9u
+
+초등학교에서 시각화 리터러시 (영문 논문) - https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/cestlavis_CHI2017.pdf 
+
+데이터 리터러시 교육 전에 비주얼 리터러시 교육 예제 - https://cestlavis.github.io/ 
+
+데이터를 다루는 역량에 대하여 - https://bit.ly/3ijzrCp
+
+구글 트렌드 (미국) - https://trends.google.com/ 
+
+구글 트렌드 (한국) - https://trends.google.co.kr/trends/?geo=KR 
+
+구글 올해의 검색어 (한국) - https://trends.google.co.kr/trends/yis/2019/KR/ 
+
+네이버 데이터랩 - https://datalab.naver.com/ 
+
+Random Forest 쉬운 설명 - https://medium.com/@deepvalidation/title-3b0e263605de
+
+Support Vector Machines 쉬운 설명 - https://bskyvision.com/163
+
+공공 인공지능 오픈 API DATA 서비스 포털 - https://aiopen.etri.re.kr/index.php
+
+한국관광 데이터랩 - https://bit.ly/3agcj63
+
+데이터 사이언스 스쿨 - https://datascienceschool.net/
+
+
+
+
+
+[참고 영상] 
+
+프론트라인 - 인공지능 시대 Frontline - In the Age of AI - https://youtu.be/tyGEejOBdF, 요약 영상 
+
+감시자본주의에 대한 Shoshana Zuboff 생각 - https://youtu.be/hIXhnWUmMvw. 얼굴인식, 움직임인식, 목소리인식, 자동차 카메라 인식, 스마트폰 활동 실시간 인식  
+
+소프트웨어야놀자 AI&DATA for Teachers - https://bit.ly/3f8yb59
+
+4차 산업혁명 이후 우리 사회는 어떻게 될 것인가 (김대식 교수) - https://youtu.be/moB-ufxPpuA
+
+옥스포드 대학 - What is Machine Learning? (한글자막) - https://youtu.be/f_uwKZIAeM0
+
+내 폰이 어떻게 이것이 개라는 것을 알까? How Does Your Phone Know This Is A Dog? (한글자막) - https://youtu.be/bHvf7Tagt18
+
+친절한 AI 미정, 유튜브 전미정 채널 - https://www.youtube.com/channel/UCSXYdoLwkNPgNAgEt2_wgzw
+
+인공지능이 인간의 기억, 일, 삶을 어떻게 향상시켜주는가(TED강연) -  https://youtu.be/DJMhz7JlPvA
+
+딥페이크 드로잉 - https://youtu.be/HSunooUTwKs
+
+Seeing AI: Making the visual world more accessible - https://youtu.be/DybczED-GKE
+
+How I'm fighting bias in algorithms | Joy Buolamwini - https://youtu.be/UG_X_7g63rY
+
+Machine Learning and Human Bias - https://youtu.be/59bMh59JQDo
+
+HEWLETT PACKARD ENTERPRISE - Moral Code: The Ethics of AI - https://youtu.be/GboOXAjGevA
+
+Machine Learning: Solving Problems Big, Small, and Prickly - https://youtu.be/_rdINNHLYaQ
+
+What is Artificial Intelligence (or Machine Learning)? - https://youtu.be/mJeNghZXtMo
+
+흑백 영상 AI 채색(찰리채플린) - https://youtu.be/EXn-n2iqEjI
+
+흑백 영상 AI 채색 (1930 년대 우리 나라) - https://youtu.be/0QuZwId-4rA
+
+선형회귀 이해하기 - https://youtu.be/MwadQ74iE-k
+
+
+
+
+
+[배움 사이트] 
+
+헬싱키 대학 AI 코스 - https://www.elementsofai.com/
+
+구글 AI Adventures - https://bit.ly/3llaFWY
+
+구글 머신러닝 코스 - https://developers.google.com/machine-learning/crash-course/ml-intro?hl=ko
+
+Crash Course 인공지능 - https://bit.ly/3uPH1w0
+
+칸아카데미 - https://ko.khanacademy.org/computing
+
+싱가폴 AI 메이커 스페이스 - https://aisingapore.org/
+
+K-MOOC 인공지능 - https://bit.ly/3uR8Vry
+
+edwith - https://www.edwith.org/search/index?categoryId=71
+
+이솝 인공지능 - https://bit.ly/2YAourR
+
+[무료 AI 관련 책 ]
+
+스탠포드 대학 통계학 e북 (764쪽) - https://web.stanford.edu/~hastie/ElemStatLearn/
+
+통계학 R 적용 e북 (434쪽) - http://faculty.marshall.usc.edu/gareth-james/ISL 
+
+실용적 시계열 예측 실습 가이드 - http://www.forecastingbook.com/
+
+유튜브로 배우기 - https://www.youtube.com/playlist?list=PLoK4oIB1jeK0LHLbZW3DTT05e4srDYxFq
+
+Artificial Intelligence: Foundations of Computational Agents, 2nd Edition by David L. Poole and Alan K. Mackworth (September 2017, 820 pages) 캠브리지, 슬라이드 제공 - https://artint.info/2e/html/ArtInt2e.html 
+
+Python code for Artificial Intelligence: Foundations of Computational Agents by David L. Poole and Alan K. Mackworth (September 2019, 223 pages).  -https://artint.info/AIPython/aipython.pdf 
+
+Machine Learning Yearning: Technical Strategy for AI Engineers, In the Era of Deep Learning by Andrew Ng (2018, 118 pages).  https://www.deeplearning.ai/machine-learning-yearning/ 
+
+The Quest for Artificial Intelligence: A History of Ideas and Achievements by Nils J. Nilsson (October 2009, 707 pages). http://ai.stanford.edu/~nilsson/QAI/qai.pdf 
+
+Reinforcement Learning: An Introduction, 2nd edition by Richard S. Sutton and Andrew G. Barto (November 2018, 548 pages). http://incompleteideas.net/book/RLbook2018.pdf 
+
+The Elements of Statistical Learning: Data Mining, Inference, and Prediction, 2nd edition (corrected) by Trevor Hastie, Robert Tibshirani, and Jerome Friedman (January 2017, 764 pages). https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf 
+
+A Brief Introduction to Neural Networks by David Kriesel, manuscript (2007, 244 pages). http://www.dkriesel.com/_media/science/neuronalenetze-en-zeta2-2col-dkrieselcom.pdf 
+
+Ethical Artificial Intelligence by Bill Hibbard (November 2015, 177 pages). https://arxiv.org/ftp/arxiv/papers/1411/1411.1373.pdf 
+
+The Essential AI Handbook for Leaders by Peltarion (59 pages). http://pages.peltarion.com/rs/842-GTD-459/images/AI-handbook-desktop-PDF.pdf 
+
+
+
+[AI 용어]
+
+구글 머신러닝 용어집 - https://developers.google.com/machine-learning/glossary?hl=ko
+
+데이터과학 e북 - https://books.google.co.kr/books?id=ne61DwAAQBAJ&pg=PT63#v=onepage&q&f=false
+
+머신러닝 용어 - http://taewan.kim/post/sample_example/
+
+동의어 사전 - https://realblack0.github.io/2020/03/23/thesaurus.html
+
+
+
+<공개 데이터 제공 사이트>
+
+[국내]
+
+AI 팩토리 - http://aifactory.space
+
+공공데이터포털 - https://www.data.go.kr/index.do 
+
+AI허브 - http://www.aihub.or.kr
+
+뉴스 - https://www.bigkinds.or.kr/
+
+네이버 데이터랩 - https://datalab.naver.com/
+
+통합 데이터 지도 - https://www.bigdata-map.kr/
+
+미디어 통계 포털 - https://stat.kisdi.re.kr/main.html
+
+데이콘 - https://dacon.io
+
+보건의료빅데이터개방시스템 - https://opendata.hira.or.kr
+
+서울시 - 서울시 열린데이터 광장 - http://data.seoul.go.kr/
+
+인구 - 주민등록 인구통계 - http://27.101.213.4/
+
+행정 - 지방행정 데이터 - http://localdata.kr/
+
+지도 - 공간정보 포털 - http://www.nsdi.go.kr/
+
+건축 - 건축 데이터 민간 개방 시스템 - http://open.eais.go.kr/
+
+등기 - 등기정보광장 - https://data.iros.go.kr/
+
+기상 -기상 자료 개방 포털 - https://data.kma.go.kr/
+
+관광 - TourAPI : http://api.visitkorea.or.kr
+
+농림축산 - 농림축산부 - http://www.mafra.go.kr/mafra/322/subview.do
+
+금융 - 금융빅데이터 개방 시스템 - https://credb.kcredit.or.kr/
+
+금융 데이터 - 금융데이터 거래소 - https://www.findatamall.or.kr/
+
+경찰 - 경찰청 공공 데이터 개방 - https://www.police.go.kr/portal/main/contents.do?menuNo=200527
+
+문화 - 문화 데이터 광장 - https://www.culture.go.kr/data/
+
+보건 복지 - 보건복지 데이터 포털 - https://data.kihasa.re.kr
+
+교통 - 국가 교통 DB - https://www.ktdb.go.k
+
+교통 사고 - 교통사고 분석 시스템 - http://taas.koroad.or.kr/
+
+전력 - 전력데이터 개발 포털시스템 - https://bigdata.kepco.co.kr/
+
+데이터 스토어 - https://www.datastore.or.kr/
+
+SKT 빅데이터 허브 - https://www.bigdatahub.co.kr/
+
+빅데이터센터 (오프라인) - https://data.kostat.go.kr
+
+서울시 빅데이터캠퍼스  (오프라인) - https://bigdata.seoul.go.kr)
+
+한국소비자원 참가격 정보서비스 - https://www.price.go.kr/tprice/portal/main/main.do 
+
+SK 텔레콤 빅데이터 허브 - https://bigdatahub.co.kr/index.do 
+
+광주광역시 빅데이터 통합 플랫폼 - https://bigdata.gwangju.go.kr/index.gwangju
+
+
+
+
+
+[국외]
+
+캐글 - https://www.kaggle.com/datasets
+
+구글 - https://knowyourdata.withgoogle.com/
+
+구글 - https://toolbox.google.com/datasetsearch
+
+레딧 - https://www.reddit.com/r/datasets
+
+UCI - https://archive.ics.uci.edu/ml
+
+Quandl - https://www.quandl.com/ 
+
+미국 플로리다 대학 잡다한 데이터 모음 - http://users.stat.ufl.edu/~winner/datasets.html
+
+데이터탐색 시각화 - https://superset.apache.org/
+
+
+
+
+
+[AI 체험 실습]
+
+
+
+[챗봇]
+
+챗GPT 실습 (자연어 대화 엔진) - https://chat.openai.com/auth/login
+
+
+
+
+
+[코딩]
+
+cognimates - https://codelab.cognimates.me/
+
+메이크블록 AI/TM - https://ide.mblock.cc
+
+아이들을 위한 머신러닝 - http://bit.ly/ai4kids 
+
+코드오알지 아워 오브 코드 AI For Oceans - https://code.org/oceans 
+
+구글 티처블 머신 (신버전)- https://teachablemachine.withgoogle.com/ 
+
+구글 티처블 머신 (구버전, 모바일) - https://teachablemachine.withgoogle.com/v1/ 
+
+구글 AI 실험 - https://experiments.withgoogle.com/collection/ai 
+
+모델 훈련과 코드 플레이 - http://cognimates.me/home/ 
+
+텐써플로 활용 자바스크립트 손 인식 - https://victordibia.com/handtrack.js/#/
+
+학교에서 만나는 인공지능 교육부 교재 - https://bit.ly/3osJBoA
+
+네이버 소프트웨어야놀자 인공지능 교재 - https://www.playsw.or.kr/artificial/textbook#
+
+
+
+
+
+[영상] 
+
+소프트웨어야 놀자 Play with AI - https://bit.ly/3f8yb59
+
+소프트웨어야 놀자 Hello AI World - https://bit.ly/3f8yb59
+
+유튜브 오리지널스 The Age of A.I.  - https://bit.ly/308CKbV
+
+과학 다큐 비욘드 - 인공지능 - https://bit.ly/2YucNmO
+
+학교에서 만나는 인공지능교육 수업보조자료 내 수업 영상 - https://bit.ly/3lo5560
+
+
+
+
+
+[앱]
+
+인공지능 활용 구글 플레이 앱 (한글, 검색어 '인공지능') - https://bit.ly/33uo99d
+
+인공지능 활용 구글 플레이 앱 (영어, 검색어 'AI') - https://bit.ly/3xV3Q2J
+
+인공지능 활용 iOS 앱 (한글) - https://bit.ly/3f6Ptj1
+
+인공지능 활용 iOS 앱 (영어) - https://bit.ly/3y2wZZB
+
+스마트폰 카메라 앱 - 얼굴 인식 
+
+스마트폰 텍스트 제공 앱 - 추천 텍스트 
+
+네컷만화 앱(14세 이상) - https://bit.ly/3xvo42a
+
+
+
+
+
+
+
+[국어 ] 
+
+AI가 만든 109의 손글씨 체험 및 설치 - https://clova.ai/handwriting/ 
+
+클로바 한국어/영어인식 - 영수증, 신용카드, 사업자 등록증, 고지서 - https://clova.ai/ocr/ 
+
+구글 음성 인식 - https://bit.ly/2AqTNte
+
+클로바 음성 인식 - https://clova.ai/speech 
+
+텍스트/트위터 성격분석 - https://aibril-pi-fb-demo-korean.sk.kr.mybluemix.net/ 
+
+한글 폰트 찾아주기 - https://kfonts.kr/  , 영어 폰트 찾아주기 - https://www.myfonts.com/WhatTheFont/ 
+
+AI 기반 음성 합성 - https://speech.selvasai.com/dnn-text-to-speech-demonstration
+
+인공지능 성우 서비스 (다양함) - https://typecast.ai/ko
+
+부산대 인공지능 맞춤법 검사기 - https://speller.cs.pusan.ac.kr/
+
+카피킬러 맞춤법 검사기 - https://spell.sawoo.com/index
+
+워드 클라우드 생성기 - http://wordcloud.kr/
+
+국립국어원 모두의 말뭉치 인공지능언어능력 평가 - https://corpus.korean.go.kr/
+
+
+
+
+
+[수학] 
+
+AI빨간펜 체험 - http://demo.redpenai.com/pc/pc.html 
+
+MS AI Math 설명 - https://www.microsoft.com/en-us/ai/ai-lab-microsoft-math , 앱 설치 - https://math.microsoft.com/ko/ 
+
+EBS 수학과 함께 하는 AI 기초 - 사이트, 교재, 자료 
+
+전세계 애완 고양이 분석 차트 분석 - https://iknowwhereyourcatlives.com/charts/
+
+손글자 숫자 인식 - http://myselph.de/neuralNet.html
+
+구글 데이터 시각화 GIF 만들기 - https://datagifmaker.withgoogle.com/
+
+Flourish 데이터 시각화 만들기 - https://flourish.studio/
+
+
+
+
+
+[사회 ] 
+
+라이프 잡지(뉴욕 시사화보 잡지, 1936-2007) 6백만장 사진 AI 분석 큐레이션 - https://artsexperiments.withgoogle.com/lifetags/ 
+
+네이버 데이터랩 활용 사회 현상 분석 - https://datalab.naver.com/
+
+한국역사정보통합시스템 - http://www.koreanhistory.or.kr/
+
+트렌드 검색 - 썸트렌드 - https://some.co.kr/
+
+트렌드 검색 - 구글 트렌드 - https://trends.google.co.kr/trends/?geo=KR
+
+트렌드 검색 - 네이버 데이터랩 - https://datalab.naver.com/
+
+트랜드 검색 - 카카오 데이터 트렌드 - https://datatrend.kakao.com/
+
+트렌드 검색 - 뉴스 트렌드 빅카인드 - https://www.bigkinds.or.kr/
+
+트렌드 검색 - 상권 정보 - https://sg.sbiz.or.kr/godo/index.sg
+
+e-나라지표 국정모니터링지표 통계청 - https://index.go.kr/
+
+
+
+
+
+[과학 ] 
+
+고래 노래 AI 도움으로 나만의 시각화 분석 - https://patternradio.withgoogle.com/ 
+
+새 소리 지도 - https://experiments.withgoogle.com/ai/bird-sounds/view/
+
+신분증, 지문, 얼굴 인식 체험 - http://www.comtrue.com/security/index.php/ai-demo/ 
+
+
+
+
+
+[미술]
+
+가족 사진을 영상으로 만들자 (독일 딥러닝활용 비디오 재현 전문회사 D-ID) - https://bit.ly/3uN6wxD
+
+안드로이드 앱 - https://play.google.com/store/apps/details?id=air.com.myheritage.mobile&hl=en
+
+iOS 앱 - https://apps.apple.com/us/app/myheritage-family-tree/id477971748
+
+내 얼굴을 명화로 - https://ai-art.tokyo/en
+
+AI가 도와주는 그림 1 - https://magic-sketchpad.glitch.me/ 
+
+AI가 도와주는 그림 2 - https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html 
+
+AI가 수정해주는 사진 - https://www.nvidia.com/research/inpainting/  , 설명 영상 
+
+AI가 실감나게 도와주는 사진 - http://nvidia-research-mingyuliu.com/gaugan/ , 설명 사이트 , 설명 영상
+
+AI가 골라주는 내가 좋아하는 색 - http://khroma.co/
+
+내가 뭘 그릴려고 했더라 - 스케치 인식 텍스트 제공 - https://noni.cmiscm.com/
+
+내가 뭘 찾으려고 했더라 - 스케치 인식 사진 제공 - https://affinelayer.com/pixsrv/
+
+자동으로 그려주지 - autodraw.com
+
+자동으로 색칠해주지 - https://petalica-paint.pixiv.dev/index_en.html 
+
+사실적으로 칠해주지 - http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4
+
+내 스케치를 AI로 바꿔보자 - https://sketch2code.azurewebsites.net/
+
+사진을 만화 느낌으로  바꿔줄까? - https://waifu.lofiu.com/index.kr.html 
+
+사진을 딥러닝으로 바꿔줄까? - https://deepdreamgenerator.com/ 
+
+AI로 사진 배경을 지워줄까? - https://www.remove.bg/ko 
+
+AI로 영상 배경을 지워볼까? - https://www.unscreen.com/
+
+비슷한 색감 그림 찾아줄까? - https://artsexperiments.withgoogle.com/artpalette/ 
+
+인공지능 화가(Artbot)가 그려주는 셀카 앱 - Meitu
+
+배경을 일본 애니메이션 화풍으로 바꿔주는 앱 - 에버필터 
+
+여성 만화 캐릭터 만들자 - https://make.girls.moe
+
+디즈니 만화 캐릭터로 만들자 - https://toonify.photos/
+
+손실된 이미지 복원해주지 - https://imglarger.com/  (머신러닝 기반, 이미지 손실 없이 해상도 높임, 업로드 이미지 2시간마다 지워짐, 최대 8배까지) 
+
+구도캠, AI가 도와주는 사진/그림 구도 앱 - https://bit.ly/2Q8tlMU
+
+움직이면 그려져요 - https://creatability.withgoogle.com/sound-canvas/
+
+Voilà AI Artist 사진 편집기 - https://bit.ly/3vkPzd8
+
+구글 아트 앤 컬처 미술 놀이 - https://experiments.withgoogle.com/collection/play-with-arts
+
+드로 투 아트 로 작품 찾기 - https://artsexperiments.withgoogle.com/draw-to-art
+
+이미지 인식 - https://www.clarifai.com/models/image-recognition-ai
+
+이모지 인식 - https://emojiscavengerhunt.withgoogle.com/
+
+
+
+
+
+[창체/도덕]
+
+AI로 스타워즈 주인공 되기 - https://betheintruder.com
+
+내 나이가 어때서 - how-old.net
+
+비디오에 있는 얼굴을 내 얼굴로 바꾸기 앱 - Reface - https://play.google.com/store/apps/details?id=video.reface.app&hl=ko
+
+성별/나이 변환 앱 - FaceApp  - https://play.google.com/store/apps/details?id=io.faceapp&hl=ko 
+
+나는 어느 정도 평범한가? - https://www.hownormalami.eu/
+
+클로바 고객센터 체험 - https://clova.ai/aicontactcenter
+
+AI와 가위바위보 하자 - https://www.afiniti.com/corporate/rock-paper-scissors
+
+AI와 가위바위보 3D게임 하자 - https://rockpaperscissors.ai/
+
+인공지능 합성 가짜 사진 (리플레시 하면 새 사람) - https://thispersondoesnotexist.com/
+
+어떤 사진이 진짜 사람인가? - https://www.whichfaceisreal.com/
+
+AI 혹은 진짜 사람 구분 게임 - https://turing.hourone.ai/
+
+
+
+
+
+[음악 ]
+
+프레디처럼 퀸 노래를 불러볼까? - https://freddiemeter.withyoutube.com/ 
+
+바흐 느낌 곡으로 만들어줄께 - https://www.google.com/doodles/celebrating-johann-sebastian-bach 
+
+오케스트라 지휘자가 되고 싶니? - https://semiconductor.withgoogle.com/ 
+
+보이는 소리를 만들자 - https://creatability.withgoogle.com/seeing-music/ 
+
+움직임으로 소리를 만들자 - https://experiments.withgoogle.com/ai/giorgio-cam/view/
+
+두 음색을 합쳐서 연주하자 - https://experiments.withgoogle.com/ai/sound-maker/view/ 
+
+두 멜로디를 AI로 연결하자 - https://experiments.withgoogle.com/ai/melody-mixer/view/
+
+AI와 이중주 하자 - https://experiments.withgoogle.com/ai/ai-duet/view/ 
+
+AI가 만들어주는 노래와 함께 2인 게임 하자 - http://vibertthio.com/runn/ 
+
+AI 자동작곡 뮤지아 유튜브 채널 - https://www.youtube.com/channel/UC8kWcSXglsAQle-g2zAti8A
+
+AI와 작곡하자 - https://beta.aiva.ai/ .  테스팅 작곡 음악 
+
+머신러닝으로 작곡하자 - https://coconet.glitch.me/
+
+오페라를 작곡하자 - https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw (네 명의 오페라 가수 노래를 각 16시간씩 노래 ML)
+
+
+
+
+
+
+
+[실과/가정 ] 
+
+비슷한 옷 색감 찾아줄까? - https://artsexperiments.withgoogle.com/runwaypalette# 
+
+
+
+[체육 ] 
+
+나만의 춤을 만들자 - https://artsexperiments.withgoogle.com/living-archive 
+
+빅데이터 활용 비만도 테스트 - https://news.joins.com/DigitalSpecial/386 
+
+포즈 인식 후 캐릭터로 보여줌 - https://pose-animator-demo.firebaseapp.com/camera.html
+
+
+
+
+
+[영어 ] 
+
+아바타를 만들어 AI 챗봇과 영어공부하자 - https://replika.ai/ 
+
+상받은 AI 챗봇과 영어공부하자 - https://www.pandorabots.com/mitsuku/ 
+
+구글 실시간 번역 앱 
+
+구글 받아쓰기 
+
+컴퓨터 비전 증강현실 제시 - 블리파 Blippar, https://www.blippar.com/ 
+
+AI가 만들어 주는 영시 - https://artsexperiments.withgoogle.com/poemportraits 
+
+영시와 내 사진 합성하기 - https://artsexperiments.withgoogle.com/poemportraits
+
+
+
+
+
+[자료 ] 
+
+AI 데이터 리터러시, 인공지능활용 교육 - bit.ly/aiedubox
+
+비상교육 인공지능 e교과서 - https://bit.ly/3ljG8c8
+
+길벗 인공지능 e교과서 - https://bit.ly/3alWDOB
+
+씨마스 인공지능 e교과서 - https://bit.ly/2WVcKzy
+
+ 금성 인공지능 e교과서 -  https://bit.ly/3mAIVNy
+
+천재교육 인공지능 교과서 pdf - https://bit.ly/2Ys13RP
+
+
+
