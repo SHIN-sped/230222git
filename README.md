@@ -239,35 +239,35 @@ feature간의 관계 탐색
 
  
 
-Scatter plots
+# Scatter plots
 
 
 가장 왼쪽 부터 그림 1,2,3,4 
-1. classification 일 때 label 구분하여 시각화
+1) 1. classification 일 때 label 구분하여 시각화
 
-1. regression일 때 heatmap or point size 로 구분
-
- 
-
-2. train / test set의 분포가 같은지 다른지 확인할 때 유용
-
-2. test가 class0과는 분포가 겹치지만 나머지는 다른 구역에 분포함.
-
-2. overfitted feature일 가능성
+1) 1. regression일 때 heatmap or point size 로 구분
 
  
 
-3. X1과 X2의 관계 X1 + X2 < 1
+2) 2. train / test set의 분포가 같은지 다른지 확인할 때 유용
 
-3. 위 관계를 바탕으로 feature generation 가능
+2) 2. test가 class0과는 분포가 겹치지만 나머지는 다른 구역에 분포함.
 
-3. X1-X2, X1/X2.
+2) 2. overfitted feature일 가능성
 
  
 
-4. 여러개의 삼각형이 보임.
+3) 3. X1과 X2의 관계 X1 + X2 < 1
 
-4. 각 삼각형에 point가 포함되는 지 여부로 feature generation
+3) 3. 위 관계를 바탕으로 feature generation 가능
+
+3) 3. X1-X2, X1/X2.
+
+ 
+
+4) 4. 여러개의 삼각형이 보임.
+
+4) 4. 각 삼각형에 point가 포함되는 지 여부로 feature generation
 
  
 
