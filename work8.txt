@@ -157,7 +157,10 @@ https://itc-engineering-blog.netlify.app/blogs/fastapi-azure-app
 6.5.5 정리
 
 6.6 백엔드/프론트엔드 AWS Certificate Manager를 이용한 http 설정
-
+6.6.1 인증서 요청
+6.6.2 백엔드 애플리케이션 HTTPS 설정
+6.6.3 프론트엔드 애플리케이션 HTTPS 설정
+6.6.4 정리
 
 
 
