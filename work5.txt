@@ -1,3 +1,36 @@
-eeee
-https://github.com/search?q=AIFFEL&type=repositories&p=94
-http://norman3.github.io/prml/
+5.1 프로젝트 설정 - 콘트롤러 클래스에 @RestController와 @RequestMapping 설정
+
+5.2 GET API 만들기
+5.2.1 @RequestMapping으로 구현하기 - @RequestMapping을 사용한 메서드 구현
+5.2.2 매개변수가 없는 GET 메서드 구현 - 매개변수가 없는 GET 매서드 구현
+5.2.3 @PathVariable을 활용한 GET 메서드 구현 - @PathVariable을 활용한 GET 메서드 구현, @PathVariable에 변수명을 매핑하는 방법
+5.2.4 @RequestParam을 활용한 GET 메서드 구현 - 딕셔너리 키값, 쿼리 형식, @RequestParam을 활용한 GET 메서드 구현, @RequestParam과 Map을 조합한 GET 메서드 구현
+5.2.5 DTO 객체를 활용한 GET 메서드 구현 - DTO 클래스의 예, DTO 객체를 활용한 GET 메서드 구현
+
+5.3 POST API 만들기
+5.3.1 @RequestMapping으로 구현하기 - @RequestMapping 사용 예
+5.3.2 @RequestBody를 활용한 POST 메서드 구현 - @RequestBody와 Map을 활용한 POST 메서드 구현
+
+5.4 PUT API 만들기
+5.4.1 @RequestBody를 활용한 PUT 메서드 구현 - @RequestBody와 Map을 활용한 PUT 메서드 구현, DTO 객체를 활용한 PUT메서드 구현
+5.4.2 ResponseEntity를 활용한 PUT 메서드 구현 - ResponseEntity를 활용한 PUT 메서드 구현
+
+5.5 DELETE API 만들기 - DeleteController 클래스
+5.5.1 @PathVariable과 @RequestParam을 활용한 DELETE 메서드 구현 - @PathVariable을 활용한 DELETE 메서드 구현, @RequestParam을 활용한 DELETE 메서드 구현
+
+5.6 [한걸음 더] REST API 명세를 문서화하는 방법 - Swagger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
