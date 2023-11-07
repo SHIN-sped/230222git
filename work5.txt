@@ -92,6 +92,125 @@
 7.6.2 테스트 주도 개발의 효과
 7.7 정리
 
+8.1 프로젝트 생성
+
+8.2 JPQL - 6장에서의 Spring DATA JPA와 리포티토리를 활용해 데이터베이스에 접근하고 기본적인 CRUD 기능과 관련
+
+8.3 쿼리 메서드 살펴보기
+8.3.1 쿼리 메서드의 생성 - 리포지토리의 쿼리 메서드 생성 예
+
+8.3.2 쿼리 메서드의 주제 키워드 - 조회하는 기능, find'''By 키워드를 활용한 쿼리 메서드, exist'''By 키워드를 활용한 쿼리 메서드, count'''By 키워드를 활용한 쿼리 메서드, delete와 remove를 활용한 쿼리 메서드, first, Top 키워드를 활용한 쿼리 메서드
+8.3.3 쿼리 메서드의 조건자 키워드 - Is, Equals 키워드를 사용한 쿼리 메서드, Not 키워드를 사용한 쿼리 메서드, Null 키워드를 활용한 쿼리 메서드, True, False 키워드를 사용한 쿼리 메서드, And, Or 키워드를 사용한 쿼리 메서드, GreaterThan, LessThan, Between 키워드를 사용한 쿼리 메서드, 부분 일치 키워드를 사용한 쿼리 메서드
+
+8.4 정렬과 페이징 처리
+8.4.1 정렬 처리하기 - 쿼리 메서드의 정렬 처리, 쿼리메서드에서 여러 정렬 기준 사용, 매개변수를 활용한 쿼리 정렬, 쿼리 메서드에 Sort 객체 전달
+8.4.2 페이징 처리 - 페이징 처리를 위한 쿼리 메소드 예시, 페이징 쿼리 메서드를 호출하는 방법, Page 객체의 데이터 출력
+
+8.5 @Query 어노테이션 적용하기 - @Query 어노테이션을 사용하는 메서드, @Query 어노테이션과 @Param 어노테이션을 사용한 메서드, 특정 칼럼만 추출하는 쿼리
+
+8.6 QueryDSL 적용하기
+8.6.1 QueryDSL이란?
+8.6.2 QueryDSL의 장점
+8.6.3 QueryDSL을 사용하기 위한 프로젝트 설정 - QueryDSL 관련 의존성 추가, QueryDSL에서 JPAAnnotationProcessor 사용을 위한 APT 플러그인 추가
+8.6.4 기본적인 QueryDSL 사용하기 - JPAQueryFactory를 활용한 QueryDSL 테스트 코드, JPAQueryFactory의 select() 메서드 활용, QueryDSL 컨피그 파일 생성, JPAQueryFactory 빈을 활용한 테스트 코드
+8.6.5 QuerydslPredicateExecutor, QuerydslRepositorySupport 활용 - QuerydslPredicateExecutor를 사용하는 리포지토리 생성, QuerydslPredicateExecutor에서 제공하는 메서드, QProductRepositoryTest 클래스 생성, Predicate를 활용한 findOne() 메서드 호출, findAll() 메서드 호출, ProductRepositoryCustom 인터페이스, ProductRepositoryCustomlmpl 클래스, ProductRepository 인터페이스, ProductRepository의 findByName() 메서드 테스트
+
+8.7 [한걸음 더] JPA Auditing 적용
+8.7.1 JPA Auditing 기능 활성화 - Configuration 클래스 생성
+8.7.2 BaseEntity 만들기 - BaseEntity 생성, BaseEntity를 상송받은 Product 엔티티 클래스
+8.8 정리
+
+*중요* 
+9.1 연관관계 매핑 종류와 방향 - One To One, One To Many, Many To One, Many To Many
+
+9.2 프로젝트 생성
+
+9.3 일대일 매핑
+9.3.1 일대일 단방향 매핑
+
+# 상품정보 엔티티
+package com.springboot.relationship.data.entity;
+
+import lombok.*;
+
+import javax.persistence.*;
+
+// 예제 9.1
+@Entity
+@Table(name = "product_detail")
+@Getter
+@Setter
+@NoArgsConstructor
+@ToString(callSuper = true)
+@EqualsAndHashCode(callSuper = true)
+public class ProductDetail extends BaseEntity {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String description;
+
+    @OneToOne //(optional=false) 예제 9.5
+    @JoinColumn(name = "product_number")
+    private Product product;
+
+}
+
+# ProductDetailRepository 인터페이스
+package com.springboot.relationship.data.repository;
+
+import com.springboot.relationship.data.entity.ProductDetail;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+// 예제 9.2
+public interface ProductDetailRepository extends JpaRepository<ProductDetail, Long> {
+
+}
+
+
+# ProdutRepository와 ProductDetailrepository에 대한 테스트 코드
+package com.springboot.relationship.data.repository;
+
+import com.springboot.relationship.data.entity.Product;
+import com.springboot.relationship.data.entity.ProductDetail;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ProductDetailRepositoryTest {
+
+    @Autowired
+    ProductDetailRepository productDetailRepository;
+
+    @Autowired
+    ProductRepository productRepository;
+
+    // 예제 9.3
+    @Test
+    public void saveAndReadTest1() {
+        Product product = new Product();
+        product.setName("스프링 부트 JPA");
+        product.setPrice(5000);
+        product.setStock(500);
+
+        productRepository.save(product);
+
+        ProductDetail productDetail = new ProductDetail();
+        productDetail.setProduct(product);
+        productDetail.setDescription("스프링 부트와 JPA를 함께 볼 수 있는 책");
+
+        productDetailRepository.save(productDetail);
+
+        // 생성한 데이터 조회
+        System.out.println("savedProduct : " + productDetailRepository.findById(
+                productDetail.getId()).get().getProduct());
+
+        System.out.println("savedProductDetail : " + productDetailRepository.findById(
+                productDetail.getId()).get());
+    }
+}
 
 
 
